@@ -69,7 +69,7 @@ public class BugZap extends PApplet {
       }
     }
     if (keyCode == RIGHT) {
-      if (playerX < (screenWidth - moveIncrement)) {
+      if (playerX < (screenWidth - moveIncrement - playerWidth)) {
         playerX += 10;
       }
     }
